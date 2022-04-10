@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+.loginRegistration {
+    position: relative;
+    top: 250px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+
+.formPost {
+    position: relative;
+    left: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.getPostNew {
+    position: relative;
+    left: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.titreGetPost {
+    position: relative;
+    left: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.blockCardPost.row.align-self-center {
+    position: relative;
+    margin: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn.btn-warning {
+    position: relative;
+    left: 20px;
 }
